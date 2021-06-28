@@ -1,9 +1,6 @@
 import React, {Component} from 'react';
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
   Redirect
 } from "react-router-dom";
 
@@ -57,14 +54,14 @@ class Register extends Component {
                     !this.state.register && !this.state.login?
                     <div>
                     <p>Email</p>
-                        <div class="loginbox">
+                        <div className="loginbox">
                         <input type="text" onChange={(event)=>{this.setState({email:event.target.value})}} />
                         </div>
                         <p>Password</p>
-                        <div class="loginbox">
+                        <div className="loginbox">
                         <input type="password" onChange={(event)=>{this.setState({password:event.target.value})}} />
                         </div>
-                        <div class="loginbox">
+                        <div className="loginbox">
                         <button onClick={()=>{this.register()}}>Register</button>
                         </div>
                     </div>
