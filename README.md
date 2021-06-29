@@ -1,3 +1,8 @@
+-------------------------------------------------------
+Abandoned the project to switch to a different codebase.
+-------------------------------------------------------
+
+
 # Internship-Project
 
 Internship japan project made with react, PHP, and JWT stuff.
